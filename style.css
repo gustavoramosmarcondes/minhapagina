@@ -1,10 +1,31 @@
-h1 {
-  color: rgb(244, 4, 4);
-}     
 
-#destaque {
-  background-color: #56750fc4;
+html{
+    background-color: #1d1d1dc4;
 }
-.destaque {
-  background-color: #56750fc4;
+body {
+}
+
+.navbar, ul{
+    background-color: transparent;
+    display: flex;
+    flex-direction:row;
+    gap: 40%;
+    flex-wrap: nowrap;
+    itens-align: center;
+    height: 50px;
+}
+
+nav{
+
+    background-color: #5e5c5cc4;
+    border-radius: 20px;
+    height: 100px;
+}
+.navbar li{
+    list-style: none;
+
+}
+a:hover{
+    background-color: #a70303c4;
+    text-color: black;
 }
